@@ -1,6 +1,24 @@
 # flask-movie
 使用flask的一个练手电影网站
 
+## 运行
+
+- 1.打开pycharm，在preferences搜索Project Interpreter选择虚拟环境flask-movie下的venv，然后点击ok
+- 2.然后选择flask-movie中的manage.py，右击run manage
+
+注意，一定要有根据数据库来配置，这里不会用的话，直接用数据库默认配置
+
+本项目的数据库
+
+- 数据库名：flask_movie
+- 用户名：root
+- 密码：root
+- host: 127.0.0.1
+- password: root
+- prot: 3306
+
+mysql+pymysql://root:root@127.0.0.1:3306/flask_movie
+
 ## 一、virtualenv的使用
 
 - 1.创建虚拟环境：virtualenv venv
