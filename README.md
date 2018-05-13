@@ -58,7 +58,7 @@ from . import admin
 
 ### 1.安装数据库连接依赖包
 
-ORM
+ORM:([flask-sqlalchemy学习](http://www.pythondoc.com/flask-sqlalchemy/config.html))
 
 ```python
 pip install flask-sqlalchemy
